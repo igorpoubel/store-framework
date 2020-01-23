@@ -7,17 +7,19 @@
   },
   "image#landingbanner": {
     "props": {
-      "minWidth": "100%"
+      "minWidth": "100%",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png"
     }
   },
   "search-result-layout.customQuery": {
     "props": {
-      "minWidth": "100%",
-      "orderByField": "OrderByReleaseDateDESC",
-      "hideUnavailableItems": true,
-      "maxItemsPerPage": 8,
-      "queryField": "Blue Top Retro Camera",
-      "mapField": "ft"
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Blue Top Retro Camera",
+        "mapField": "ft"
+      }
     }
   }
 }
