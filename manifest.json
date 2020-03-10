@@ -3,7 +3,7 @@
   "name": "theme",
   "version": "0.0.1",
   "builders": {
-    "styles": "1.x",
+    "styles": ">=2.x",
     "store": "0.x"
   },
   "scripts": {
@@ -41,7 +41,8 @@
     "vtex.responsive-layout": "0.x",
     "vtex.slider-layout": "0.x",
     "vtex.iframe": "0.x",
-    "vtex.breadcrumb": "1.x"
+    "vtex.breadcrumb": "1.x",
+    "vtex.countdown": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
